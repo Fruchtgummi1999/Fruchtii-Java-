@@ -35,7 +35,7 @@ public class Bubblesort {
 					// 4. Durchlauf: 3, 0, 20, 80, 90, 70, 2
 					// 5. Durchlauf: 3, 0, 20, 80, 70, 90, 2
 					// 6. Durchlauf: 3, 0, 20, 80, 70, 2, 90
-					// "irgendwas, ist ja egal was"
+					//
 					t = true;
 				}
 			}
