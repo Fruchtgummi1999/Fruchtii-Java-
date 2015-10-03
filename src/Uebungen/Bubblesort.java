@@ -8,9 +8,9 @@ public class Bubblesort {
 
 		int temp = 0;
 
-		boolean t = true;
-		while (t) {
-			t = false;
+		int tausch = 0;
+		while (tausch == 0) {
+			tausch = 1;
 			for (int i = 0; i < array.length - 1; i++) {
 				if (array[i] > array[i + 1]) {
 
@@ -20,7 +20,7 @@ public class Bubblesort {
 
 					array[i + 1] = temp;
 
-					t = true;
+					tausch = 0;
 				}
 			}
 		}
